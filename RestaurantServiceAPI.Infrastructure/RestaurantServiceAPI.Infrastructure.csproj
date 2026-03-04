@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantServiceAPI.Application\RestaurantServiceAPI.Application.csproj" />
+    <ProjectReference Include="..\RestaurantServiceAPI.Domain\RestaurantServiceAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
