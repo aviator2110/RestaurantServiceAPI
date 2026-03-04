@@ -17,4 +17,7 @@ public class OrderItem
     public OrderItemStatus Status { get; set; }
 
     public decimal TotalPrice => Quantity * UnitPrice;
+
+    public Order Order { get; set; } = null!;
+    public Product Product { get; set; } = null!;
 }

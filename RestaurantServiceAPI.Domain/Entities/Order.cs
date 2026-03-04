@@ -20,4 +20,7 @@ public class Order
     public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
 
     public decimal TotalAmount => _items.Sum(x => x.TotalPrice);
+
+    public Table Table { get; set; } = null!;
+    public User Waiter { get; set; } = null!;
 }
