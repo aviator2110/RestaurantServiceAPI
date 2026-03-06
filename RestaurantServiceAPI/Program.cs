@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using RestaurantServiceAPI.Application.Mapping;
 using RestaurantServiceAPI.Infrastructure.Data;
 using System.Reflection;
 
@@ -20,6 +21,8 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
