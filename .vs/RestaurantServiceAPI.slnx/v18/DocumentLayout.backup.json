@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\features\\orders\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\features\\orders\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\restaurantserviceapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\restaurantserviceapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,28 +79,12 @@
       "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\dtos\\tabledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\dtos\\orderitemdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\dtos\\orderitemdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\enums\\orderitemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\enums\\orderitemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{844D6D44-D637-2583-F6D8-9751075F18CB}|RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.infrastructure\\data\\restaurantservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0618D89-ECEF-737A-0C86-6F836E8EAD72}|RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj|solutionrelative:restaurantserviceapi.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|c:\\users\\quram\\desktop\\program\\restaurantserviceapi\\restaurantserviceapi.application\\restaurantserviceapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1FE9161E-DBF9-04E4-392F-E8B1CD8A1AB2}|RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj|solutionrelative:restaurantserviceapi.application\\restaurantserviceapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -107,71 +131,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T11:40:28.805Z",
+              "WhenOpened": "2026-03-06T17:34:39.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TableDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\ITableRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\ITableRepository.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\ITableRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\ITableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T11:33:05.936Z",
+              "WhenOpened": "2026-03-06T17:28:42.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwCMAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\IOrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IOrderItemRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\IOrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T11:26:13.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T15:31:59.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T11:04:27.388Z",
+              "WhenOpened": "2026-03-06T17:26:34.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:23:15.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Features\\Orders\\Commands\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Features\\Orders\\Commands\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Features\\Orders\\Commands\\CreateOrderCommand.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Features\\Orders\\Commands\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:17:34.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:01:33.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Table.cs",
               "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Table.cs",
               "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\Table.cs",
@@ -184,46 +221,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T10:41:40.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T17:32:49.588Z",
+              "WhenOpened": "2026-03-04T17:13:22.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\Program.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\Program.cs",
-              "RelativeToolTip": "RestaurantServiceAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T10:27:39.455Z",
+              "WhenOpened": "2026-03-04T11:04:27.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:40:28.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RestaurantServiceAPI.API.csproj",
               "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
               "RelativeDocumentMoniker": "RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
@@ -231,38 +268,23 @@
               "RelativeToolTip": "RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T10:28:25.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:28:25.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\appsettings.json",
-              "RelativeToolTip": "RestaurantServiceAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-04T15:58:52.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderItemDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA4wB4AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\Program.cs",
+              "RelativeToolTip": "RestaurantServiceAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T12:24:43.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:27:39.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\OrderItem.cs",
@@ -275,124 +297,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA6AAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\UserDtos.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T12:21:19.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T17:32:49.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T10:59:03.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrderItemStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T11:01:42.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RestaurantServiceAPI.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T10:39:44.287Z",
+              "WhenOpened": "2026-03-04T15:31:59.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "RestaurantServiceDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGkAAAAlAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T13:36:07.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:41:40.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T17:13:22.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MenuCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T10:58:11.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
-              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T10:46:16.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RestaurantServiceAPI.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
-              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T10:34:53.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "RestaurantServiceAPI.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj",
               "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\RestaurantServiceAPI.Application.csproj",
@@ -402,6 +344,150 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-03-04T10:35:10.229Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:26:13.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TableDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\TableDtos.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:33:05.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\appsettings.json",
+              "RelativeToolTip": "RestaurantServiceAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T15:58:52.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItemDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\OrderItemDtos.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA4wB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T12:24:43.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Application\\DTOs\\OrderDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T12:21:19.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:59:03.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderItemStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\OrderItemStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:01:42.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RestaurantServiceAPI.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\RestaurantServiceAPI.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T10:39:44.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RestaurantServiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\Data\\RestaurantServiceDbContext.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T13:36:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MenuCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\MenuCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:58:11.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:46:16.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RestaurantServiceAPI.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
+              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\RestaurantServiceAPI.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T10:34:53.162Z"
             }
           ]
         }
