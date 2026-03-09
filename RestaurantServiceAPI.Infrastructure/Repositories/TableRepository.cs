@@ -1,8 +1,10 @@
-﻿using RestaurantServiceAPI.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Domain.Entities;
 using RestaurantServiceAPI.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,38 +20,69 @@ public class TableRepository : ITableRepository
         this._context = context;
     }
 
-    public Task<Table> CreateAsync(Table table)
+    public async Task<Table> CreateAsync(Table table)
     {
-        throw new NotImplementedException();
+        await this._context.Tables.AddAsync(table);
+
+        await this._context.SaveChangesAsync();
+
+        return table;
     }
 
-    public Task DeleteAsync(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var table = await this.GetByIdAsync(id);
+
+        if (table is null || table.IsActive is false)
+            return;
+
+        table.IsActive = false;
+
+        await this._context.SaveChangesAsync();
     }
 
-    public Task<IEnumerable<Table>> GetActiveTablesAsync()
+    public async Task<IEnumerable<Table>> GetActiveTablesAsync()
     {
-        throw new NotImplementedException();
+        var tablesQuery = this._context.Tables.AsQueryable();
+
+        var activeTables = await tablesQuery.Where(t => t.IsActive == true).ToListAsync();
+
+        return activeTables;
     }
 
-    public Task<IEnumerable<Table>> GetAllAsync()
+    public async Task<IEnumerable<Table>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        var tables = await this._context.Tables.ToListAsync();
+
+        return tables;
     }
 
-    public Task<Table?> GetByIdAsync(Guid id)
+    public async Task<Table?> GetByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var table = await this._context.Tables.FindAsync(id);
+
+        if (table is null)
+            return null;
+
+        return table;
     }
 
-    public Task<Table?> GetByNumberAsync(int number)
+    public async Task<Table?> GetByNumberAsync(int number)
     {
-        throw new NotImplementedException();
+        var tablesQuery = this._context.Tables.AsQueryable();
+
+        var table = await tablesQuery.FirstOrDefaultAsync(t => t.Number == number);
+
+        if (table is null)
+            return null;
+
+        return table;
     }
 
-    public Task UpdateAsync(Table table)
+    public async Task UpdateAsync(Table table)
     {
-        throw new NotImplementedException();
+        this._context.Tables.Update(table);
+
+        await this._context.SaveChangesAsync();
     }
 }

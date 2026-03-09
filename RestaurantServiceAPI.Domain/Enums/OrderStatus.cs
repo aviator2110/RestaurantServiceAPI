@@ -13,4 +13,5 @@ public enum OrderStatus
     Ready,                  // All elements are ready
     Served,                 // Served to the client
     Cancelled,              // Cancelled
+    Completed,              // Order closed
 }

@@ -1,5 +1,7 @@
-﻿using RestaurantServiceAPI.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Domain.Entities;
+using RestaurantServiceAPI.Domain.Enums;
 using RestaurantServiceAPI.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
@@ -18,38 +20,90 @@ public class OrderRepository : IOrderRepository
         this._context = context;
     }
 
-    public Task<Order> CreateAsync(Order order)
+    public async Task<Order> CreateAsync(Order order)
     {
-        throw new NotImplementedException();
+        await this._context.Orders.AddAsync(order);
+
+        await this._context.SaveChangesAsync();
+
+        return order;
     }
 
-    public Task DeleteAsync(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var order = await this.GetByIdAsync(id);
+
+        if (order is null)
+            return;
+
+        order.Status = OrderStatus.Cancelled;
+
+        await this._context.SaveChangesAsync();
     }
 
-    public Task<IEnumerable<Order>> GetActiveOrdersAsync()
+    public async Task<IEnumerable<Order>> GetActiveOrdersAsync()
     {
-        throw new NotImplementedException();
+        var ordersQuery = this._context.Orders
+            .Include(o => o.Table)
+            .Include(o => o.Waiter)
+            .Include(o => o.Items)
+            .AsQueryable();
+
+        var activeOrders = await ordersQuery
+            .Where(o => o.Status != OrderStatus.Completed && o.Status != OrderStatus.Cancelled)
+            .ToListAsync();
+
+        return activeOrders;
     }
 
-    public Task<IEnumerable<Order>> GetAllAsync()
+    public async Task<IEnumerable<Order>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        var ordersQuery = this._context.Orders
+            .Include(o => o.Table)
+            .Include(o => o.Waiter)
+            .Include(o => o.Items)
+            .AsQueryable();
+
+        var orders = await ordersQuery.ToListAsync();
+
+        return orders;
     }
 
-    public Task<Order?> GetByIdAsync(Guid id)
+    public async Task<Order?> GetByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var ordersQuery = this._context.Orders
+            .Include(o => o.Table)
+            .Include(o => o.Waiter)
+            .Include(o => o.Items)
+            .AsQueryable();
+
+        var order = await ordersQuery.FirstOrDefaultAsync(o => o.Id == id);
+
+        if (order is null)
+            return null;
+
+        return order;
     }
 
-    public Task<IEnumerable<Order>> GetByTableIdAsync(Guid tableId)
+    public async Task<IEnumerable<Order>> GetByTableIdAsync(Guid tableId)
     {
-        throw new NotImplementedException();
+        var ordersQuery = this._context.Orders
+            .Include(o => o.Table)
+            .Include(o => o.Waiter)
+            .Include(o => o.Items)
+            .AsQueryable();
+
+        var orders = await ordersQuery
+            .Where(o => o.TableId == tableId)
+            .ToListAsync();
+
+        return orders;
     }
 
-    public Task UpdateAsync(Order order)
+    public async Task UpdateAsync(Order order)
     {
-        throw new NotImplementedException();
+        this._context.Orders.Update(order);
+
+        await this._context.SaveChangesAsync();
     }
 }

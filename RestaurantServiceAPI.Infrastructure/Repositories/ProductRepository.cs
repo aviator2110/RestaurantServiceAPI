@@ -1,9 +1,11 @@
-﻿using RestaurantServiceAPI.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Domain.Entities;
 using RestaurantServiceAPI.Domain.Enums;
 using RestaurantServiceAPI.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,43 +21,69 @@ public class ProductRepository : IProductRepository
         this._context = context;
     }
 
-    public Task<Product> CreateAsync(Product product)
+    public async Task<Product> CreateAsync(Product product)
     {
-        throw new NotImplementedException();
+        this._context.Products.Add(product);
+
+        await this._context.SaveChangesAsync();
+
+        return product;
     }
 
-    public Task DeleteAsync(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var product = await GetByIdAsync(id);
+
+        if (product is null || !product.IsAvailable)
+            return;
+
+        product.IsAvailable = false;
+
+        await _context.SaveChangesAsync();
     }
 
-    public Task<bool> ExistsByNameAsync(string name)
+    public async Task<bool> ExistsByNameAsync(string name)
     {
-        throw new NotImplementedException();
+        return await this._context.Products
+            .AnyAsync(p => p.Name == name);
     }
 
-    public Task<IEnumerable<Product>> GetAllAsync()
+    public async Task<IEnumerable<Product>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        var products = await this._context.Products.ToListAsync();
+
+        return products;
     }
 
-    public Task<IEnumerable<Product>> GetAvailableAsync()
+    public async Task<IEnumerable<Product>> GetAvailableAsync()
     {
-        throw new NotImplementedException();
+        var productsQuery = this._context.Products.AsQueryable();
+
+        var products = await productsQuery.Where(p => p.IsAvailable == true).ToListAsync();
+
+        return products;
     }
 
-    public Task<IEnumerable<Product>> GetByCategoryAsync(MenuCategory category)
+    public async Task<IEnumerable<Product>> GetByCategoryAsync(MenuCategory category)
     {
-        throw new NotImplementedException();
+        var productsQuery = this._context.Products.AsQueryable();
+
+        var products = await productsQuery.Where(p => p.Category == category).ToListAsync();
+
+        return products;
     }
 
-    public Task<Product?> GetByIdAsync(Guid id)
+    public async Task<Product?> GetByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var product = await this._context.Products.FindAsync(id);
+
+        return product;
     }
 
-    public Task UpdateAsync(Product product)
+    public async Task UpdateAsync(Product product)
     {
-        throw new NotImplementedException();
+        this._context.Products.Update(product);
+
+        await this._context.SaveChangesAsync();
     }
 }
