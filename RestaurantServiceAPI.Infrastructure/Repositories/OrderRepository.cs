@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Domain.Entities;
 using RestaurantServiceAPI.Domain.Enums;
@@ -95,6 +96,21 @@ public class OrderRepository : IOrderRepository
 
         var orders = await ordersQuery
             .Where(o => o.TableId == tableId)
+            .ToListAsync();
+
+        return orders;
+    }
+
+    public async Task<IEnumerable<Order>> GetByWaiterIdAsync(Guid waiterId)
+    {
+        var ordersQuery = this._context.Orders
+            .Include(o => o.Table)
+            .Include(o => o.Waiter)
+            .Include(o => o.Items)
+            .AsQueryable();
+
+        var orders = await ordersQuery
+            .Where(o => o.WaiterId == waiterId)
             .ToListAsync();
 
         return orders;

@@ -66,8 +66,8 @@ public class Order
 
     public void Cancel()
     {
-        if (Status == OrderStatus.Completed)
-            throw new InvalidOperationException("Completed order cannot be cancelled");
+        if (_items.Any(x => x.Status == OrderItemStatus.Ready))
+            throw new InvalidOperationException("Order contains ready items");
 
         Status = OrderStatus.Cancelled;
 

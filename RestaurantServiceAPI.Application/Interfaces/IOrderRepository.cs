@@ -13,6 +13,7 @@ public interface IOrderRepository
     Task<IEnumerable<Order>> GetAllAsync();
     Task<IEnumerable<Order>> GetActiveOrdersAsync();
     Task<IEnumerable<Order>> GetByTableIdAsync(Guid tableId);
+    Task<IEnumerable<Order>> GetByWaiterIdAsync(Guid waiterId);
     Task<Order> CreateAsync(Order order);
     Task UpdateAsync(Order order);
     Task DeleteAsync(Guid id);

@@ -19,8 +19,4 @@
     <ProjectReference Include="..\RestaurantServiceAPI.Domain\RestaurantServiceAPI.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Orders\Queries\" />
-  </ItemGroup>
-
 </Project>
