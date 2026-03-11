@@ -8,4 +8,4 @@ using System.Threading.Tasks;
 
 namespace RestaurantServiceAPI.Application.Features.Orders.Commands;
 
-public record CreateOrderCommand(CreateOrderRequestDto createRequest, string pinCode) : IRequest<OrderResponseDto>;
+public record UpdateOrderStatusCommand(Guid Id, UpdateOrderStatusRequestDto updateStatusRequest) : IRequest<OrderResponseDto>;

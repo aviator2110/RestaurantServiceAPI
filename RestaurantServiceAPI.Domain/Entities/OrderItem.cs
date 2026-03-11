@@ -20,4 +20,36 @@ public class OrderItem
 
     public Order Order { get; set; } = null!;
     public Product Product { get; set; } = null!;
+
+    private OrderItem() { }
+
+    public OrderItem(Guid productId, int quantity, decimal price)
+    {
+        Id = Guid.NewGuid();
+        ProductId = productId;
+        Quantity = quantity;
+        UnitPrice = price;
+        Status = OrderItemStatus.Pending;
+    }
+
+    public void Ready()
+    {
+        Status = OrderItemStatus.Ready;
+    }
+
+    public void UpdateQuantity(int quantity)
+    {
+        if (quantity <= 0)
+            throw new Exception("Quantity must be greater than zero");
+
+        Quantity = quantity;
+    }
+
+    public void Cancel()
+    {
+        if (Status == OrderItemStatus.Ready)
+            throw new InvalidOperationException("Ready item cannot be cancelled");
+
+        Status = OrderItemStatus.Cancelled;
+    }
 }

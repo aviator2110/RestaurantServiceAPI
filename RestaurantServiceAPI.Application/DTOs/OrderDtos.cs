@@ -23,6 +23,7 @@ public class OrderResponseDto
 public class CreateOrderRequestDto
 {
     public Guid TableId { get; set; }
+    public Guid WaiterId { get; set; }
 }
 
 public class UpdateOrderStatusRequestDto
