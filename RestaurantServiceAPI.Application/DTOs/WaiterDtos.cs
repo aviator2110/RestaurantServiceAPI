@@ -4,12 +4,5 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestaurantServiceAPI.Domain.Enums;
+namespace RestaurantServiceAPI.Application.DTOs;
 
-public enum UserRole
-{
-    Admin,
-    Chef,
-    Bartender,
-    Waiter,
-}

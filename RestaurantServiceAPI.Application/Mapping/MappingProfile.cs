@@ -65,17 +65,10 @@ public class MappingProfile : Profile
 
         CreateMap<UpdateTableRequestDto, Table>();
 
-        // User mapping
+        // Waiter mapping
 
-        CreateMap<User, UserResponseDto>();
-
-        CreateMap<CreateUserRequestDto, User>()
-            .ForMember(dest => dest.Role, opt => opt.MapFrom(_ => UserRole.Waiter))
-            .ForMember(dest => dest.IsActive, opt => opt.MapFrom(_ => true))
-            .ForMember(dest => dest.PasswordHash, opt => opt.Ignore())
-            .ForMember(dest => dest.WaiterPinHash, opt => opt.Ignore())
-            .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
-
-        CreateMap<UpdateUserRequestDto, User>();
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        // >>>>>>>>>>>>>>>>>>>>>>>>>>>>> TODO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
 }

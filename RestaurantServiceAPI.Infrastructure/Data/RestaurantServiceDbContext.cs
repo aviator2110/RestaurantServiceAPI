@@ -14,7 +14,7 @@ public class RestaurantServiceDbContext : DbContext
         : base(options)
     {}
 
-    public DbSet<User> Users => Set<User>();
+    public DbSet<Waiter> Waiters => Set<Waiter>();
     public DbSet<Order> Orders => Set<Order>();
     public DbSet<OrderItem> OrderItems => Set<OrderItem>();
     public DbSet<Table> Tables => Set<Table>();
@@ -83,27 +83,6 @@ public class RestaurantServiceDbContext : DbContext
                   .IsUnique();
         });
 
-        modelBuilder.Entity<User>(user =>
-        {
-            user.HasKey(u => u.Id);
-            user.Property(u => u.FirstName)
-                  .IsRequired()
-                  .HasMaxLength(100);
-            user.Property(u => u.LastName)
-                  .IsRequired()
-                  .HasMaxLength(100);
-            user.Property(u => u.Email)
-                  .IsRequired()
-                  .HasMaxLength(200);
-            user.HasIndex(u => u.Email)
-                  .IsUnique();
-            user.Property(u => u.PasswordHash)
-                  .IsRequired();
-            user.Property(u => u.Role)
-                  .HasConversion<string>();
-            user.Property(u => u.WaiterPinHash)
-                  .HasMaxLength(200)
-                  .IsRequired(false);
-        });
+        // TODO: modelbuilder for WAITER !!!!!
     }
 }

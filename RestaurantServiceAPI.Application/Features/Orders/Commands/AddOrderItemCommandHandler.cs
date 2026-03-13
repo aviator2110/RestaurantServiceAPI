@@ -16,17 +16,14 @@ public class AddOrderItemCommandHandler : IRequestHandler<AddOrderItemCommand, O
 {
     private readonly IOrderRepository _orderRepository;
     private readonly IProductRepository _productRepository;
-    private readonly IOrderItemRepository _orderItemRepository;
     private readonly IMapper _mapper;
 
     public AddOrderItemCommandHandler(
-        IOrderRepository orderRepository, 
-        IOrderItemRepository orderItemRepository, 
+        IOrderRepository orderRepository,
         IProductRepository productRepository, 
         IMapper mapper)
     {
         this._orderRepository = orderRepository;
-        this._orderItemRepository = orderItemRepository;
         this._productRepository = productRepository;
         this._mapper = mapper;
     }

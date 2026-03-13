@@ -22,7 +22,7 @@ public class Order
     public decimal TotalAmount => _items.Sum(x => x.TotalPrice);
 
     public Table Table { get; set; } = null!;
-    public User Waiter { get; set; } = null!;
+    public Waiter Waiter { get; set; } = null!;
 
     private Order() { }
 
