@@ -17,7 +17,7 @@ public class Product
     public bool IsAvailable { get; set; }
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
 
-    private Product() { } // For EF
+    private Product() { }
 
     public Product(string name, string description, decimal price, MenuCategory category, bool isAvailable)
     {

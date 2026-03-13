@@ -22,26 +22,15 @@ public class UserRepository : IUserRepository
         this._context = context;
     }
 
-    public async Task<string> CreateUserAsync(CreateUserRequestDto request)
+    public async Task<User> CreateUserAsync(User user)
     {
-        var passwordHash = this.Hash(request.Password);
-
-        var user = new User
-        {
-            Id = Guid.NewGuid(),
-            FirstName = request.FirstName,
-            LastName = request.LastName,
-            Email = request.Email,
-            PasswordHash = passwordHash,
-            Role = request.Role,
-            IsActive = true
-        };
+        user.PasswordHash = this.Hash(user.PasswordHash);
 
         await this._context.Users.AddAsync(user);
 
         await this._context.SaveChangesAsync();
 
-        return user.Id.ToString();
+        return user;
     }
 
     public async Task<User?> GetUserByEmailAsync(string email)
@@ -57,12 +46,9 @@ public class UserRepository : IUserRepository
         return user;
     }
 
-    public async Task<User?> GetUserByIdAsync(string id)
+    public async Task<User?> GetUserByIdAsync(Guid id)
     {
-        if (!Guid.TryParse(id, out var userId))
-            return null;
-
-        var user = await this._context.Users.FindAsync(userId);
+        var user = await this._context.Users.FindAsync(id);
 
         if (user is null)
             return null;
@@ -82,7 +68,7 @@ public class UserRepository : IUserRepository
         return user.PasswordHash == passwordHash;
     }
 
-    public async Task<UserRole> GetUserRoleByUserIdAsync(string id)
+    public async Task<UserRole> GetUserRoleByUserIdAsync(Guid id)
     {
         var user = await this.GetUserByIdAsync(id);
 
@@ -103,6 +89,62 @@ public class UserRepository : IUserRepository
             return;
 
         user.Role = parsedRole;
+
+        await this._context.SaveChangesAsync();
+    }
+
+    public async Task<IEnumerable<User>> GetAllAsync()
+    {
+        var users = await this._context.Users.ToListAsync();
+
+        return users;
+    }
+
+    public async Task<IEnumerable<User>> GetActiveUsersAsync()
+    {
+        var usersQuery = this._context.Users.AsQueryable();
+
+        var users = await usersQuery
+            .Where(u => u.IsActive == true)
+            .ToListAsync();
+
+        return users;
+    }
+
+    public async Task<IEnumerable<User>> GetUsersByRoleAsync(UserRole role)
+    {
+        var usersQuery = this._context.Users.AsQueryable();
+
+        var users = await usersQuery
+            .Where(u => u.Role == role)
+            .ToListAsync();
+
+        return users;
+    }
+
+    public async Task<bool> UserWithEmailExistsAsync(string email)
+    {
+        var isExists = await this._context.Users
+            .AnyAsync(u => u.Email == email);
+
+        return isExists;
+    }
+
+    public async Task UpdateAsync(User user)
+    {
+        this._context.Users.Update(user);
+
+        await this._context.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(Guid id)
+    {
+        var user = await this.GetUserByIdAsync(id);
+
+        if (user is null || user.IsActive is false)
+            return;
+
+        user.Deactivate();
 
         await this._context.SaveChangesAsync();
     }
