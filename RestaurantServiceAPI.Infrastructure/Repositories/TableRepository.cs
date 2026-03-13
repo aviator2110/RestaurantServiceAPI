@@ -79,6 +79,15 @@ public class TableRepository : ITableRepository
         return table;
     }
 
+    public async Task<bool> TableWithNumberExists(int number)
+    {
+        var tablesQuery = this._context.Tables.AsQueryable();
+
+        var isExist = await tablesQuery.AnyAsync(t => t.Number == number);
+
+        return isExist;
+    }
+
     public async Task UpdateAsync(Table table)
     {
         this._context.Tables.Update(table);

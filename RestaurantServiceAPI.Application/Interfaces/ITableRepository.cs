@@ -16,4 +16,5 @@ public interface ITableRepository
     Task<Table> CreateAsync(Table table);
     Task UpdateAsync(Table table);
     Task DeleteAsync(Guid id);
+    Task<bool> TableWithNumberExists(int number);
 }

@@ -43,6 +43,8 @@ public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand,
         else 
             product.Deactivate();
 
+        await this._productRepository.UpdateAsync(product);
+
         return this._mapper.Map<ProductResponseDto>(product);
     }
 }
