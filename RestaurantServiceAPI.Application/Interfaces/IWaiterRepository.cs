@@ -11,5 +11,10 @@ namespace RestaurantServiceAPI.Application.Interfaces;
 
 public interface IWaiterRepository
 {
-    
+    Task<Waiter?> GetByIdAsync(Guid id);
+    Task<IEnumerable<Waiter>> GetAllAsync();
+    Task<IEnumerable<Waiter>> GetActiveAsync();
+    Task<Waiter> CreateAsync(Waiter waiter);
+    Task UpdateAsync(Waiter waiter);
+    Task DeactivateAsync(Guid id);
 }

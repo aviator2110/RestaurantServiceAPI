@@ -67,8 +67,15 @@ public class MappingProfile : Profile
 
         // Waiter mapping
 
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        // >>>>>>>>>>>>>>>>>>>>>>>>>>>>> TODO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        CreateMap<Waiter, WaiterResponseDto>();
+
+        CreateMap<CreateWaiterRequestDto, Waiter>()
+            .ForMember(dest => dest.PinHash, opt => opt.Ignore())
+            .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
+            .ForMember(dest => dest.IsActive, opt => opt.MapFrom(_ => true));
+
+        // PanelAccount mapping
+
+        CreateMap<PanelAccount, PanelAccountResponseDto>();
     }
 }

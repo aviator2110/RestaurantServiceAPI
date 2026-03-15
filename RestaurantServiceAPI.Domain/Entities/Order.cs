@@ -14,7 +14,7 @@ public class Order
     public Guid WaiterId { get; set; }
     public OrderStatus Status { get; set; }
     public DateTimeOffset StartedAt { get; set; } = DateTimeOffset.UtcNow;
-    public DateTimeOffset CompletedAt { get; set; }
+    public DateTimeOffset? CompletedAt { get; set; }
 
     private readonly List<OrderItem> _items = new();
     public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();

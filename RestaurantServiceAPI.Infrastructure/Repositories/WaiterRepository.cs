@@ -22,5 +22,60 @@ public class WaiterRepository : IWaiterRepository
         this._context = context;
     }
 
-    
+    public async Task<Waiter> CreateAsync(Waiter waiter)
+    {
+        await this._context.Waiters.AddAsync(waiter);
+
+        await this._context.SaveChangesAsync();
+
+        return waiter;
+    }
+
+    public async Task DeactivateAsync(Guid id)
+    {
+        var waiter = await this._context.Waiters.FindAsync(id);
+
+        if (waiter is null)
+            throw new Exception("No waiter with this Id!");
+
+        if (!waiter.IsActive)
+            return;
+
+        waiter.Deactivate();
+
+        await this._context.SaveChangesAsync();
+    }
+
+    public async Task<IEnumerable<Waiter>> GetActiveAsync()
+    {
+        var waitersQuery = this._context.Waiters.AsQueryable();
+
+        var activeWaiters = await waitersQuery.Where(w => w.IsActive).ToListAsync();
+
+        return activeWaiters;
+    }
+
+    public async Task<IEnumerable<Waiter>> GetAllAsync()
+    {
+        var waiters = await this._context.Waiters.ToListAsync();
+
+        return waiters;
+    }
+
+    public async Task<Waiter?> GetByIdAsync(Guid id)
+    {
+        var waiter = await this._context.Waiters.FindAsync(id);
+
+        if (waiter is null)
+            return null;
+
+        return waiter;
+    }
+
+    public async Task UpdateAsync(Waiter waiter)
+    {
+        this._context.Waiters.Update(waiter);
+
+        await this._context.SaveChangesAsync();
+    }
 }

@@ -9,12 +9,12 @@ namespace RestaurantServiceAPI.Domain.Entities;
 
 public class PanelAccount
 {
-    public Guid Id { get; private set; }
-    public string Login { get; private set; } = string.Empty;
-    public string PasswordHash { get; private set; } = string.Empty;
-    public PanelType PanelType { get; private set; }
-    public bool IsActive { get; private set; }
-    public DateTimeOffset CreatedAt { get; private set; }
+    public Guid Id { get; set; }
+    public string Login { get; set; } = string.Empty;
+    public string PasswordHash { get; set; } = string.Empty;
+    public PanelType PanelType { get; set; }
+    public bool IsActive { get; set; }
+    public DateTimeOffset CreatedAt { get; set; }
 
     private PanelAccount() { }
 

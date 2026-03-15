@@ -35,7 +35,7 @@ public class ProductRepository : IProductRepository
         var product = await GetByIdAsync(id);
 
         if (product is null || !product.IsAvailable)
-            return;
+            throw new Exception("No product with this Id!");
 
         product.IsAvailable = false;
 

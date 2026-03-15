@@ -8,12 +8,12 @@ namespace RestaurantServiceAPI.Domain.Entities;
 
 public class Waiter
 {
-    public Guid Id { get; private set; }
-    public string FirstName { get; private set; } = string.Empty;
-    public string LastName { get; private set; } = string.Empty;
-    public string PinHash { get; private set; } = string.Empty;
-    public bool IsActive { get; private set; }
-    public DateTimeOffset CreatedAt { get; private set; }
+    public Guid Id { get; set; }
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public string PinHash { get; set; } = string.Empty;
+    public bool IsActive { get; set; }
+    public DateTimeOffset CreatedAt { get; set; }
 
     private Waiter() { }
 
