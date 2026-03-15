@@ -19,9 +19,4 @@
     <ProjectReference Include="..\RestaurantServiceAPI.Domain\RestaurantServiceAPI.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Waiters\Commands\" />
-    <Folder Include="Features\Waiters\Queries\" />
-  </ItemGroup>
-
 </Project>
