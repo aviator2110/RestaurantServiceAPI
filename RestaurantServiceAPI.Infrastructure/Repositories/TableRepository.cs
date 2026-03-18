@@ -29,16 +29,18 @@ public class TableRepository : ITableRepository
         return table;
     }
 
-    public async Task DeleteAsync(Guid id)
+    public async Task<bool> DeactivateAsync(Guid id)
     {
         var table = await this.GetByIdAsync(id);
 
         if (table is null || table.IsActive is false)
-            return;
+            return false;
 
         table.IsActive = false;
 
         await this._context.SaveChangesAsync();
+
+        return true;
     }
 
     public async Task<IEnumerable<Table>> GetActiveTablesAsync()

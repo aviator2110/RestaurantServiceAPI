@@ -14,5 +14,5 @@ public interface IOrderItemRepository
     Task<IEnumerable<OrderItem>> GetPendingItemsAsync();
     Task<OrderItem> CreateAsync(OrderItem orderItem);
     Task UpdateAsync(OrderItem orderItem);
-    Task DeleteAsync(Guid id);
+    Task<bool> SaveChangesAsync();
 }

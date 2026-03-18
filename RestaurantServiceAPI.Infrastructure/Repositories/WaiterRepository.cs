@@ -31,19 +31,21 @@ public class WaiterRepository : IWaiterRepository
         return waiter;
     }
 
-    public async Task DeactivateAsync(Guid id)
+    public async Task<bool> DeactivateAsync(Guid id)
     {
         var waiter = await this._context.Waiters.FindAsync(id);
 
         if (waiter is null)
-            throw new Exception("No waiter with this Id!");
+            return false;
 
         if (!waiter.IsActive)
-            return;
+            return false;
 
         waiter.Deactivate();
 
         await this._context.SaveChangesAsync();
+
+        return true;
     }
 
     public async Task<IEnumerable<Waiter>> GetActiveAsync()

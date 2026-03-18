@@ -15,6 +15,6 @@ public interface ITableRepository
     Task<IEnumerable<Table>> GetActiveTablesAsync();
     Task<Table> CreateAsync(Table table);
     Task UpdateAsync(Table table);
-    Task DeleteAsync(Guid id);
+    Task<bool> DeactivateAsync(Guid id);
     Task<bool> TableWithNumberExists(int number);
 }

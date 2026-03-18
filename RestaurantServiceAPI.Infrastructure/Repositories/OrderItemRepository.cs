@@ -29,16 +29,9 @@ public class OrderItemRepository : IOrderItemRepository
         return orderItem;
     }
 
-    public async Task DeleteAsync(Guid id)
+    public async Task<bool> SaveChangesAsync()
     {
-        var orderItem = await this.GetByIdAsync(id);
-
-        if (orderItem is null)
-            return;
-
-        orderItem.Status = OrderItemStatus.Cancelled;
-
-        await this._context.SaveChangesAsync();
+        return await this._context.SaveChangesAsync() > 0;
     }
 
     public async Task<OrderItem?> GetByIdAsync(Guid id)

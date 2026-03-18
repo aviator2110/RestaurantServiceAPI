@@ -26,11 +26,14 @@ public class CancelOrderCommandHandler : IRequestHandler<CancelOrderCommand, Ord
         var order = await this._orderRepository.GetByIdAsync(request.OrderId);
 
         if (order is null)
-            throw new Exception("Order not found");
+            throw new Exception("Order with this Id doesn't exist!");
 
         order.Cancel();
 
-        await this._orderRepository.UpdateAsync(order);
+        var isDeleted = await this._orderRepository.CancelAsync(order.Id);
+
+        if (!isDeleted)
+            throw new Exception("Failed to delete the order!");
 
         return this._mapper.Map<OrderResponseDto>(order);
     }

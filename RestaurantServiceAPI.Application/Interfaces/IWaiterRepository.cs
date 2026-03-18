@@ -16,5 +16,5 @@ public interface IWaiterRepository
     Task<IEnumerable<Waiter>> GetActiveAsync();
     Task<Waiter> CreateAsync(Waiter waiter);
     Task UpdateAsync(Waiter waiter);
-    Task DeactivateAsync(Guid id);
+    Task<bool> DeactivateAsync(Guid id);
 }

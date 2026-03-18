@@ -30,9 +30,6 @@ public class PanelAccountRepository : IPanelAccountRepository
     {
         var panelAccount = await this._context.PanelAccounts.FindAsync(id);
 
-        if (panelAccount == null)
-            new Exception("No Panel account with this Id!");
-
         return panelAccount;
     }
 

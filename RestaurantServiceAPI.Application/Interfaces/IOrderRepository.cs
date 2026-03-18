@@ -16,5 +16,5 @@ public interface IOrderRepository
     Task<IEnumerable<Order>> GetByWaiterIdAsync(Guid waiterId);
     Task<Order> CreateAsync(Order order);
     Task UpdateAsync(Order order);
-    Task DeleteAsync(Guid id);
+    Task<bool> CancelAsync(Guid id);
 }

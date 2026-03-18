@@ -32,6 +32,12 @@ public class DeactivateProductCommandHandler : IRequestHandler<DeactivateProduct
             return this._mapper.Map<ProductResponseDto>(product);
 
         product.Deactivate();
+
+        var isSaved = await this._productRepository.SaveChangesAsync();
+
+        if (!isSaved)
+            throw new Exception("Product not canceled for some reasons!");
+
         return this._mapper.Map<ProductResponseDto>(product);
     }
 }

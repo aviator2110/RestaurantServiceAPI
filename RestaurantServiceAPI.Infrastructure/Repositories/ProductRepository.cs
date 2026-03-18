@@ -30,16 +30,9 @@ public class ProductRepository : IProductRepository
         return product;
     }
 
-    public async Task DeleteAsync(Guid id)
+    public async Task<bool> SaveChangesAsync()
     {
-        var product = await GetByIdAsync(id);
-
-        if (product is null || !product.IsAvailable)
-            throw new Exception("No product with this Id!");
-
-        product.IsAvailable = false;
-
-        await _context.SaveChangesAsync();
+        return await _context.SaveChangesAsync() > 0;
     }
 
     public async Task<bool> ExistsByNameAsync(string name)
