@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RestaurantServiceAPI.Application\RestaurantServiceAPI.Application.csproj" />
     <ProjectReference Include="..\RestaurantServiceAPI.Infrastructure\RestaurantServiceAPI.Infrastructure.csproj" />
   </ItemGroup>
