@@ -15,21 +15,32 @@ public class JwtTokenService : IJwtTokenService
 
     public JwtTokenService(IConfiguration configuration)
     {
-        _configuration = configuration;
+        this._configuration = configuration;
     }
 
     public LoginResponseDto CreateToken(PanelAccount account)
     {
-        var key = _configuration["Jwt:Key"]!;
-        var issuer = _configuration["Jwt:Issuer"]!;
-        var audience = _configuration["Jwt:Audience"]!;
-        var expiresMinutes = int.Parse(_configuration["Jwt:ExpiresMinutes"]!);
+        var key = this._configuration["Jwt:Key"]
+            ?? throw new InvalidOperationException("Jwt:Key is not configured.");
+
+        var issuer = this._configuration["Jwt:Issuer"]
+            ?? throw new InvalidOperationException("Jwt:Issuer is not configured.");
+
+        var audience = this._configuration["Jwt:Audience"]
+            ?? throw new InvalidOperationException("Jwt:Audience is not configured.");
+
+        var expiresMinutesValue = this._configuration["Jwt:ExpiresMinutes"]
+            ?? throw new InvalidOperationException("Jwt:ExpiresMinutes is not configured.");
+
+        if (!int.TryParse(expiresMinutesValue, out var expiresMinutes))
+            throw new InvalidOperationException("Jwt:ExpiresMinutes must be a valid integer.");
 
         var expiresAt = DateTime.UtcNow.AddMinutes(expiresMinutes);
 
         var claims = new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, account.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             new Claim(ClaimTypes.NameIdentifier, account.Id.ToString()),
             new Claim(ClaimTypes.Name, account.Login),
             new Claim(ClaimTypes.Role, account.PanelType.ToString())
