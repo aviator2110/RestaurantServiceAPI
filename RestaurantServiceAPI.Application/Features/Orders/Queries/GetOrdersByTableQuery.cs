@@ -8,4 +8,4 @@ using System.Threading.Tasks;
 
 namespace RestaurantServiceAPI.Application.Features.Orders.Queries;
 
-public record GetOrdersByTableQuery(Guid TableId) : IRequest<OrderResponseDto?>;
+public record GetOrdersByTableQuery(Guid TableId) : IRequest<IEnumerable<OrderResponseDto?>>;

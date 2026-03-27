@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantServiceAPI.Application.Features.Orders.Queries;
 
-public class GetOrdersByTableQueryHandler : IRequestHandler<GetOrdersByTableQuery, OrderResponseDto?>
+public class GetOrdersByTableQueryHandler : IRequestHandler<GetOrdersByTableQuery, IEnumerable<OrderResponseDto?>>
 {
     private readonly IOrderRepository _orderRepository;
     private readonly IMapper _mapper;
@@ -21,13 +21,10 @@ public class GetOrdersByTableQueryHandler : IRequestHandler<GetOrdersByTableQuer
         this._mapper = mapper;
     }
 
-    public async Task<OrderResponseDto?> Handle(GetOrdersByTableQuery request, CancellationToken cancellationToken)
+    public async Task<IEnumerable<OrderResponseDto?>> Handle(GetOrdersByTableQuery request, CancellationToken cancellationToken)
     {
-        var order = await this._orderRepository.GetByTableIdAsync(request.TableId);
+        var orders = await this._orderRepository.GetByTableIdAsync(request.TableId);
 
-        if (order == null)
-            return null;
-
-        return this._mapper.Map<OrderResponseDto>(order);
+        return this._mapper.Map<IEnumerable<OrderResponseDto>>(orders);
     }
 }

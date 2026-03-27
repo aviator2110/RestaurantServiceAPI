@@ -4,5 +4,175 @@
         <name>RestaurantServiceAPI.API</name>
     </assembly>
     <members>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get order item by id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.UpdateStatus(System.Guid,RestaurantServiceAPI.Application.Features.OrderItems.Commands.UpdateOrderItemStatusCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update order item status.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Get all orders.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetActive(System.Threading.CancellationToken)">
+            <summary>
+            Get active orders.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get order by id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetItems(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get all order items by order id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetByTable(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get orders by table id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetByWaiter(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get orders by waiter id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.Create(RestaurantServiceAPI.Application.Features.Orders.Commands.CreateOrderCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create a new order.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.AddOrderItem(System.Guid,RestaurantServiceAPI.Application.Features.Orders.Commands.AddOrderItemCommand,System.Threading.CancellationToken)">
+            <summary>
+            Add order item.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.RemoveOrderItem(System.Guid,System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Remove order item.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.UpdateOrderItemQuantity(System.Guid,System.Guid,RestaurantServiceAPI.Application.Features.Orders.Commands.UpdateOrderItemQuantityCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update order item quantity.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.UpdateStatus(System.Guid,RestaurantServiceAPI.Application.Features.Orders.Commands.UpdateOrderStatusCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update order status.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.Complete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Complete order.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.Cancel(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Cancel order.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Get all products.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.GetAvailable(System.Threading.CancellationToken)">
+            <summary>
+            Get available products.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get product by id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.Create(RestaurantServiceAPI.Application.Features.Products.Commands.CreateProductCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create a new product.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.Update(System.Guid,RestaurantServiceAPI.Application.Features.Products.Commands.UpdateProductCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update product.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.ProductsController.Deactivate(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Deactivate product.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Get all tables.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.GetActive(System.Threading.CancellationToken)">
+            <summary>
+            Get active tables.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get table by id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.Create(RestaurantServiceAPI.Application.Features.Tables.Commands.CreateTableCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create a new table.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.Update(System.Guid,RestaurantServiceAPI.Application.Features.Tables.Commands.UpdateTableCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update table.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.TablesController.Deactivate(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Deactivate table.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Get all waiters.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.GetActive(System.Threading.CancellationToken)">
+            <summary>
+            Get active waiters.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get waiter by id.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.Create(RestaurantServiceAPI.Application.Features.Waiters.Commands.CreateWaiterCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create a new waiter.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.UpdateDetails(System.Guid,RestaurantServiceAPI.Application.Features.Waiters.Commands.UpdateWaiterDetailsCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update waiter details.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.UpdatePin(System.Guid,RestaurantServiceAPI.Application.Features.Waiters.Commands.UpdateWaiterPinCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update waiter pin.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.Deactivate(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Deactivate waiter.
+            </summary>
+        </member>
     </members>
 </doc>

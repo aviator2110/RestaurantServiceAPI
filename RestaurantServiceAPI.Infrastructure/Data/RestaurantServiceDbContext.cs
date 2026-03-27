@@ -10,9 +10,11 @@ namespace RestaurantServiceAPI.Infrastructure.Data;
 
 public class RestaurantServiceDbContext : DbContext
 {
-    public RestaurantServiceDbContext(DbContextOptions options)
+    public RestaurantServiceDbContext(DbContextOptions<RestaurantServiceDbContext> options)
         : base(options)
-    {}
+    {
+
+    }
 
     public DbSet<Waiter> Waiters => Set<Waiter>();
     public DbSet<Order> Orders => Set<Order>();
@@ -36,9 +38,9 @@ public class RestaurantServiceDbContext : DbContext
                 .WithMany()
                 .HasForeignKey(o => o.WaiterId)
                 .OnDelete(DeleteBehavior.Restrict);
-            order.HasMany(typeof(OrderItem), "_items")
-                .WithOne()
-                .HasForeignKey("OrderId")
+            order.HasMany(o => o.Items)
+                .WithOne(oi => oi.Order)
+                .HasForeignKey(oi => oi.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
             order.Ignore(o => o.TotalAmount);
             order.Property(o => o.Status)
@@ -55,7 +57,7 @@ public class RestaurantServiceDbContext : DbContext
         {
             orderItem.HasKey(x => x.Id);
             orderItem.HasOne(x => x.Order)
-                .WithMany("_items")
+                .WithMany(o => o.Items)
                 .HasForeignKey(x => x.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
             orderItem.HasOne(x => x.Product)
