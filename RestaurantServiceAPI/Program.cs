@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using RestaurantServiceAPI.Application.Extensions;
 using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Application.Mapping;
 using RestaurantServiceAPI.Infrastructure.Data;
@@ -29,6 +30,7 @@ builder.Services.AddDbContext<RestaurantServiceDbContext>(
 builder.Services.AddControllers();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddApplicaton();
 
 builder.Services.AddSwaggerGen(options =>
 {
