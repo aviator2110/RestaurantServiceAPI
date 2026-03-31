@@ -11,3 +11,16 @@ C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI.Domain\
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\refint\RestaurantServiceAPI.Domain.dll
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.pdb
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\ref\RestaurantServiceAPI.Domain.dll
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\bin\Debug\net9.0\RestaurantServiceAPI.Domain.deps.json
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\bin\Debug\net9.0\RestaurantServiceAPI.Domain.dll
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\bin\Debug\net9.0\RestaurantServiceAPI.Domain.pdb
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.AssemblyInfo.cs
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.sourcelink.json
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.dll
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\refint\RestaurantServiceAPI.Domain.dll
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\RestaurantServiceAPI.Domain.pdb
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI.Domain\obj\Debug\net9.0\ref\RestaurantServiceAPI.Domain.dll

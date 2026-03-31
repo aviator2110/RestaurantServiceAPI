@@ -1,13 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+﻿using Microsoft.EntityFrameworkCore;
 using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Domain.Entities;
 using RestaurantServiceAPI.Infrastructure.Data;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestaurantServiceAPI.Infrastructure.Repositories;
 

@@ -6,6 +6,7 @@ using RestaurantServiceAPI.Application.Extensions;
 using RestaurantServiceAPI.Application.Interfaces;
 using RestaurantServiceAPI.Application.Mapping;
 using RestaurantServiceAPI.Infrastructure.Data;
+using RestaurantServiceAPI.Infrastructure.Repositories;
 using RestaurantServiceAPI.Infrastructure.Services;
 using System.Reflection;
 using System.Text;
@@ -90,6 +91,12 @@ builder.Services.AddAuthorization();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IPanelAccountRepository, PanelAccountRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ITableRepository, TableRepository>();
+builder.Services.AddScoped<IWaiterRepository, WaiterRepository>();
 
 var app = builder.Build();
 
