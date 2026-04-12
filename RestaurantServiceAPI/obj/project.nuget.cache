@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2X0Fv/tLVeE=",
+  "dgSpecHash": "CssiwBDa7as=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Quram\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Quram\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -99,20 +99,16 @@
     "C:\\Users\\Quram\\.nuget\\packages\\system.text.json\\9.0.13\\system.text.json.9.0.13.nupkg.sha512",
     "C:\\Users\\Quram\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Quram\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Quram\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Quram\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
-    "C:\\Users\\Quram\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
-    "C:\\Users\\Quram\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
-    "C:\\Users\\Quram\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+    "C:\\Users\\Quram\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1903",
       "level": "Warning",
-      "message": "У пакета \"AutoMapper\" 12.0.0 есть известная уязвимость https://github.com/advisories/GHSA-rvv3-g6hj-g44x (уровень серьезности: высокий уровень)",
-      "projectPath": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
+      "message": "Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
+      "filePath": "C:\\Users\\Quram\\Desktop\\program\\RestaurantServiceAPI\\RestaurantServiceAPI\\RestaurantServiceAPI.API.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net9.0"

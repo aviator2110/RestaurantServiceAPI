@@ -9,7 +9,7 @@ namespace RestaurantServiceAPI.Domain.Enums;
 public enum PanelType
 {
     Admin,
-    Kitchen,
-    Bar,
-    WaiterTerminal,
+    Cook,
+    Bartender,
+    Waiter,
 }
