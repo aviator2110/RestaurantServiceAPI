@@ -28,7 +28,7 @@ public class UpdateTableCommandHandler : IRequestHandler<UpdateTableCommand, Tab
         if (table is null)
             throw new Exception("Table with this Id doesn't exist!");
 
-        var isExists = await this._tableRepository.TableWithNumberExists(request.UpdateRequest.Number);
+        var isExists = await this._tableRepository.TableWithNumberExists(table, request.UpdateRequest.Number);
 
         if (isExists)
             throw new Exception("Table with this number already exists!");

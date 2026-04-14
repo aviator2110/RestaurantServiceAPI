@@ -24,12 +24,12 @@ public class CreateTableCommandHandler : IRequestHandler<CreateTableCommand, Tab
 
     public async Task<TableResponseDto> Handle(CreateTableCommand request, CancellationToken cancellationToken)
     {
-        bool isExists = await this._tableRepository.TableWithNumberExists(request.CreateRequest.Number);
+        var table = new Table(request.CreateRequest.Number, request.CreateRequest.IsActive);
+        
+        bool isExists = await this._tableRepository.TableWithNumberExists(table, request.CreateRequest.Number);
 
         if (isExists)
             throw new Exception("Table with this number already exists!");
-
-        var table = new Table(request.CreateRequest.Number, request.CreateRequest.IsActive);
 
         await this._tableRepository.CreateAsync(table);
 
