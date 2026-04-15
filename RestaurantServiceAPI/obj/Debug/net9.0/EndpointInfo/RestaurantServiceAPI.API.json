@@ -1444,6 +1444,46 @@
         }
       }
     },
+    "/api/Waiters/by-pin/{pin}": {
+      "get": {
+        "tags": [
+          "Waiters"
+        ],
+        "summary": "Get waiter by pin.",
+        "parameters": [
+          {
+            "name": "pin",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WaiterResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WaiterResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WaiterResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Waiters/{id}/pin": {
       "patch": {
         "tags": [

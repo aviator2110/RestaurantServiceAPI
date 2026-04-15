@@ -77,8 +77,10 @@ public class WaiterRepository : IWaiterRepository
 
     public async Task<Waiter?> GetByPinAsync(string pin)
     {
-        var waiter = await this._context.Waiters.FirstOrDefaultAsync(w => this._passwordHasher.Verify(pin, w.PinHash));
+        var waiters = await this._context.Waiters.ToListAsync();
 
-        return waiter;
+        var isEqual = waiters.FirstOrDefault(w => this._passwordHasher.Verify(pin, w.PinHash));
+
+        return isEqual;
     }
 }

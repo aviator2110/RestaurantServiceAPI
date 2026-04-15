@@ -61,6 +61,21 @@ public class WaitersController : ControllerBase
     }
 
     /// <summary>
+    /// Get waiter by pin.
+    /// </summary>
+    [HttpGet("by-pin/{pin}")]
+    [Authorize(Roles = "Admin,Waiter")]
+    public async Task<ActionResult<ApiResponse<WaiterResponseDto>>> GetByPin(string pin, CancellationToken cancellationToken)
+    {
+        var result = await this._mediator.Send(new GetWaiterByPinQuery(pin), cancellationToken);
+
+        if (result is null)
+            return NotFound(ApiResponse<WaiterResponseDto>.ErrorResponse($"Waiter with this pin was not found."));
+
+        return Ok(ApiResponse<WaiterResponseDto>.SuccessResponse(result));
+    }
+
+    /// <summary>
     /// Create a new waiter.
     /// </summary>
     [HttpPost]

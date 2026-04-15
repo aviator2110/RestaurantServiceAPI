@@ -154,6 +154,11 @@
             Get waiter by id.
             </summary>
         </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.GetByPin(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get waiter by pin.
+            </summary>
+        </member>
         <member name="M:RestaurantServiceAPI.API.Controllers.WaitersController.Create(RestaurantServiceAPI.Application.Features.Waiters.Commands.CreateWaiterCommand,System.Threading.CancellationToken)">
             <summary>
             Create a new waiter.
