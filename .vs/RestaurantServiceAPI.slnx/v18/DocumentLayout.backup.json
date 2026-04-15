@@ -160,8 +160,7 @@
               "RelativeToolTip": "RestaurantServiceAPI.Application\\Features\\Waiters\\Queries\\GetWaiterByPinQueryHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T11:20:59.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T11:20:59.922Z"
             },
             {
               "$type": "Document",
@@ -209,8 +208,7 @@
               "RelativeToolTip": "RestaurantServiceAPI\\Controllers\\WaitersController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAwEMAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T09:00:09.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T09:00:09.656Z"
             },
             {
               "$type": "Document",
@@ -218,8 +216,8 @@
               "Title": "WaiterRepository.cs",
               "DocumentMoniker": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs",
               "RelativeDocumentMoniker": "RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs",
-              "ToolTip": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs*",
-              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs*",
+              "ToolTip": "C:\\Users\\Quram\\Desktop\\programing\\RestaurantServiceAPI\\RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs",
+              "RelativeToolTip": "RestaurantServiceAPI.Infrastructure\\Repositories\\WaiterRepository.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAcwFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T06:41:46.594Z",
@@ -235,8 +233,7 @@
               "RelativeToolTip": "RestaurantServiceAPI\\Controllers\\TablesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T06:26:23.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T06:26:23.524Z"
             },
             {
               "$type": "Document",
