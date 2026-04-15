@@ -17,4 +17,5 @@ public interface IWaiterRepository
     Task<Waiter> CreateAsync(Waiter waiter);
     Task UpdateAsync(Waiter waiter);
     Task<bool> DeactivateAsync(Guid id);
+    Task<Waiter?> GetByPinAsync(string pin);
 }

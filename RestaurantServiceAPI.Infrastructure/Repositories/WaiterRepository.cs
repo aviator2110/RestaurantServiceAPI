@@ -8,10 +8,12 @@ namespace RestaurantServiceAPI.Infrastructure.Repositories;
 public class WaiterRepository : IWaiterRepository
 {
     private readonly RestaurantServiceDbContext _context;
+    private readonly IPasswordHasher _passwordHasher;
 
-    public WaiterRepository(RestaurantServiceDbContext context)
+    public WaiterRepository(RestaurantServiceDbContext context, IPasswordHasher passwordHasher)
     {
         this._context = context;
+        this._passwordHasher = passwordHasher;
     }
 
     public async Task<Waiter> CreateAsync(Waiter waiter)
@@ -71,5 +73,12 @@ public class WaiterRepository : IWaiterRepository
         this._context.Waiters.Update(waiter);
 
         await this._context.SaveChangesAsync();
+    }
+
+    public async Task<Waiter?> GetByPinAsync(string pin)
+    {
+        var waiter = await this._context.Waiters.FirstOrDefaultAsync(w => this._passwordHasher.Verify(pin, w.PinHash));
+
+        return waiter;
     }
 }
