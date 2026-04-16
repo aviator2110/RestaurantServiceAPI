@@ -1799,7 +1799,8 @@
             "format": "double"
           },
           "status": {
-            "$ref": "#/components/schemas/OrderItemStatus"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1853,16 +1854,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "OrderItemStatus": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "OrderResponseDto": {
         "type": "object",

@@ -11,5 +11,6 @@ public enum OrderItemStatus
     Pending,            // awaiting preparation
     Preparing,          // cooking
     Ready,              // ready
+    Served,             // served to customer
     Cancelled,          // canceled
 }
