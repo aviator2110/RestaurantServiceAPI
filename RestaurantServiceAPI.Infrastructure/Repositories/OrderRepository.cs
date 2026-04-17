@@ -118,4 +118,9 @@ public class OrderRepository : IOrderRepository
 
         await this._context.SaveChangesAsync();
     }
+
+    public async Task SaveChangesAsync()
+    {
+        await this._context.SaveChangesAsync();
+    }
 }

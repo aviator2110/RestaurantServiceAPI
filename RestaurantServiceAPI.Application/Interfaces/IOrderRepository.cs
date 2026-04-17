@@ -17,4 +17,5 @@ public interface IOrderRepository
     Task<Order> CreateAsync(Order order);
     Task UpdateAsync(Order order);
     Task<bool> CancelAsync(Guid id);
+    Task SaveChangesAsync();
 }

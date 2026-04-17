@@ -94,6 +94,47 @@
         }
       }
     },
+    "/api/OrderItems/order/{id}": {
+      "get": {
+        "tags": [
+          "OrderItems"
+        ],
+        "summary": "Get order items by order id.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/OrderItems/{id}/status": {
       "patch": {
         "tags": [
@@ -126,6 +167,55 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/UpdateOrderItemStatusCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OrderItems": {
+      "post": {
+        "tags": [
+          "OrderItems"
+        ],
+        "summary": "Create order item.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderItemCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderItemCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderItemCommand"
               }
             }
           }
@@ -1619,6 +1709,37 @@
         },
         "additionalProperties": false
       },
+      "CreateOrderItemCommand": {
+        "type": "object",
+        "properties": {
+          "request": {
+            "$ref": "#/components/schemas/CreateOrderItemRequestDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateOrderItemRequestDto": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "orderId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateOrderRequestDto": {
         "type": "object",
         "properties": {
@@ -1779,6 +1900,10 @@
             "format": "uuid"
           },
           "productId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "orderId": {
             "type": "string",
             "format": "uuid"
           },

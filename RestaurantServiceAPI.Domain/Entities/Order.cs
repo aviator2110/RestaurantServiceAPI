@@ -19,7 +19,7 @@ public class Order
     private readonly List<OrderItem> _items = new();
     public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
 
-    public decimal TotalAmount => _items.Sum(x => x.TotalPrice);
+    public decimal TotalAmount => _items.Where(x => x.Status != OrderItemStatus.Cancelled).Sum(x => x.TotalPrice);
 
     public Table Table { get; set; } = null!;
     public Waiter Waiter { get; set; } = null!;
@@ -35,12 +35,12 @@ public class Order
         StartedAt = DateTimeOffset.UtcNow;
     }
 
-    public void AddItem(Product product, int quantity)
+    public void AddItem(Product product, Guid orderId, int quantity)
     {
         if (Status == OrderStatus.Completed)
             throw new InvalidOperationException("Cannot modify completed order");
 
-        var item = new OrderItem(product.Id, quantity, product.Price);
+        var item = new OrderItem(product.Id, orderId, quantity, product.Price);
 
         _items.Add(item);
     }

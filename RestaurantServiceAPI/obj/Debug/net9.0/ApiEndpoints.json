@@ -27,6 +27,32 @@
   },
   {
     "ContainingType": "RestaurantServiceAPI.API.Controllers.OrderItemsController",
+    "Method": "Create",
+    "RelativePath": "api/OrderItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "RestaurantServiceAPI.Application.Features.OrderItems.Commands.CreateOrderItemCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestaurantServiceAPI.Application.Common.ApiResponse\u00601[[RestaurantServiceAPI.Application.DTOs.OrderItemResponseDto, RestaurantServiceAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestaurantServiceAPI.API.Controllers.OrderItemsController",
     "Method": "GetById",
     "RelativePath": "api/OrderItems/{id}",
     "HttpMethod": "GET",
@@ -67,6 +93,32 @@
       {
         "Name": "command",
         "Type": "RestaurantServiceAPI.Application.Features.OrderItems.Commands.UpdateOrderItemStatusCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestaurantServiceAPI.Application.Common.ApiResponse\u00601[[RestaurantServiceAPI.Application.DTOs.OrderItemResponseDto, RestaurantServiceAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestaurantServiceAPI.API.Controllers.OrderItemsController",
+    "Method": "GetByOrderId",
+    "RelativePath": "api/OrderItems/order/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

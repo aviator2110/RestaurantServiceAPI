@@ -9,9 +9,19 @@
             Get order item by id.
             </summary>
         </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.GetByOrderId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get order items by order id.
+            </summary>
+        </member>
         <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.UpdateStatus(System.Guid,RestaurantServiceAPI.Application.Features.OrderItems.Commands.UpdateOrderItemStatusCommand,System.Threading.CancellationToken)">
             <summary>
             Update order item status.
+            </summary>
+        </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.Create(RestaurantServiceAPI.Application.Features.OrderItems.Commands.CreateOrderItemCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create order item.
             </summary>
         </member>
         <member name="M:RestaurantServiceAPI.API.Controllers.OrdersController.GetAll(System.Threading.CancellationToken)">

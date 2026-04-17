@@ -40,9 +40,9 @@ public class AddOrderItemCommandHandler : IRequestHandler<AddOrderItemCommand, O
         if (product is null || product.IsAvailable is false)
             throw new Exception("Product not available");
 
-        order.AddItem(product, request.Quantity);
+        order.AddItem(product, request.OrderId, request.Quantity);
 
-        await this._orderRepository.UpdateAsync(order);
+        await this._orderRepository.SaveChangesAsync();
 
         return this._mapper.Map<OrderResponseDto>(order);
     }

@@ -23,10 +23,11 @@ public class OrderItem
 
     private OrderItem() { }
 
-    public OrderItem(Guid productId, int quantity, decimal price)
+    public OrderItem(Guid productId, Guid orderId, int quantity, decimal price)
     {
         Id = Guid.NewGuid();
         ProductId = productId;
+        OrderId = orderId;
         Quantity = quantity;
         UnitPrice = price;
         Status = OrderItemStatus.Pending;
