@@ -10,7 +10,6 @@ public enum OrderStatus
 {
     Created,                // Order created             
     InProgress,             // At least one element is ready
-    Ready,                  // All elements are ready
     Served,                 // Served to the client
     Cancelled,              // Cancelled
     Completed,              // Order closed
