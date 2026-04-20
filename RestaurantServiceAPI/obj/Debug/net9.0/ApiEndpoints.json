@@ -135,6 +135,26 @@
     ]
   },
   {
+    "ContainingType": "RestaurantServiceAPI.API.Controllers.OrderItemsController",
+    "Method": "GetPendingItems",
+    "RelativePath": "api/OrderItems/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "RestaurantServiceAPI.Application.Common.ApiResponse\u00601[[RestaurantServiceAPI.Application.DTOs.OrderItemResponseDto, RestaurantServiceAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RestaurantServiceAPI.API.Controllers.OrdersController",
     "Method": "GetAll",
     "RelativePath": "api/Orders",

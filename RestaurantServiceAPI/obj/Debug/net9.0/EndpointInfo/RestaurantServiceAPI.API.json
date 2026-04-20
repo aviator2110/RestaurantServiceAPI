@@ -94,6 +94,36 @@
         }
       }
     },
+    "/api/OrderItems/pending": {
+      "get": {
+        "tags": [
+          "OrderItems"
+        ],
+        "summary": "Get pending order items.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderItemResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/OrderItems/order/{id}": {
       "get": {
         "tags": [
@@ -1924,6 +1954,10 @@
             "format": "double"
           },
           "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "menuCategory": {
             "type": "string",
             "nullable": true
           }

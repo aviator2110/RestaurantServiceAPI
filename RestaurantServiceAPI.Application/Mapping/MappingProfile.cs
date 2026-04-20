@@ -36,6 +36,7 @@ public class MappingProfile : Profile
 
         CreateMap<OrderItem, OrderItemResponseDto>()
             .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name))
+            .ForMember(dest => dest.MenuCategory, opt => opt.MapFrom(src => src.Product.Category.ToString()))
             .ForMember(dest => dest.TotalPrice, opt => opt.MapFrom(src => src.TotalPrice));
 
         CreateMap<CreateOrderItemRequestDto, OrderItem>()

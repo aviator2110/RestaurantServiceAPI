@@ -38,6 +38,18 @@ public class OrderItemsController : ControllerBase
     }
 
     /// <summary>
+    /// Get pending order items.
+    /// </summary>
+    [HttpGet("pending")]
+    [Authorize(Roles = "Admin,Cook,Bartender")]
+    public async Task<ActionResult<ApiResponse<OrderItemResponseDto>>> GetPendingItems(CancellationToken cancellationToken)
+    {
+        var result = await this._mediator.Send(new GetPendingItemsQuery(), cancellationToken);
+
+        return Ok(ApiResponse<IEnumerable<OrderItemResponseDto>>.SuccessResponse(result));
+    }
+
+    /// <summary>
     /// Get order items by order id.
     /// </summary>
     [HttpGet("order/{id:guid}")]

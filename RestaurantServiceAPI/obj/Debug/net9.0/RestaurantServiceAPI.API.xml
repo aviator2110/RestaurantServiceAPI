@@ -9,6 +9,11 @@
             Get order item by id.
             </summary>
         </member>
+        <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.GetPendingItems(System.Threading.CancellationToken)">
+            <summary>
+            Get pending order items.
+            </summary>
+        </member>
         <member name="M:RestaurantServiceAPI.API.Controllers.OrderItemsController.GetByOrderId(System.Guid,System.Threading.CancellationToken)">
             <summary>
             Get order items by order id.
