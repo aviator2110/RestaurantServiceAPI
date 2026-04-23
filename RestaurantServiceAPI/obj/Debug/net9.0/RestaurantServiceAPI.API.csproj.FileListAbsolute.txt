@@ -377,4 +377,5 @@ C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\RestaurantServiceAPI.API.pdb
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\RestaurantServiceAPI.API.genruntimeconfig.cache
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\ref\RestaurantServiceAPI.API.dll
-C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.Core.dll
+C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.S3.dll

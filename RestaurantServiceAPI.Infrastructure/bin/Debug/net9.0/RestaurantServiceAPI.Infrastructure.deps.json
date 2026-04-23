@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "RestaurantServiceAPI.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "4.0.21.2",
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "EntityFramework": "6.5.1",
@@ -39,6 +40,25 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/4.0.3.29": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.3.29"
+          }
+        }
+      },
+      "AWSSDK.S3/4.0.21.2": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.3.29"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.21.2"
           }
         }
       },
@@ -679,6 +699,7 @@
       },
       "RestaurantServiceAPI.Application/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "4.0.21.2",
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "MediatR": "12.5.0",
@@ -696,6 +717,7 @@
       },
       "RestaurantServiceAPI.Domain/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "4.0.21.2",
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.13",
@@ -730,6 +752,20 @@
       "sha512": "sha512-XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
       "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/4.0.3.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y07n9BHBVRDe3fDAjitnOBPwDwJ5NZ4oOh6ZvOizYWEsJnYcs34FQtTJ70Gt17qTCH86ma5kJdyMZ2lixm/dqg==",
+      "path": "awssdk.core/4.0.3.29",
+      "hashPath": "awssdk.core.4.0.3.29.nupkg.sha512"
+    },
+    "AWSSDK.S3/4.0.21.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Yeh5DjpfnmKKW8z1684LxUWBVau1ozmLY9vpLhwv9uqCa2S3wk6xK7KCBSlM2i6RQ14Wabyqfqo1Y27etE00Q==",
+      "path": "awssdk.s3/4.0.21.2",
+      "hashPath": "awssdk.s3.4.0.21.2.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
