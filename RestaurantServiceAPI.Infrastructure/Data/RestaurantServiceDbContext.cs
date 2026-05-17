@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RestaurantServiceAPI.Domain.Entities;
+using RestaurantServiceAPI.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -135,5 +136,55 @@ public class RestaurantServiceDbContext : DbContext
             entity.Property(pa => pa.CreatedAt)
                 .HasDefaultValueSql("GETUTCDATE()");
         });
+
+        modelBuilder.Entity<PanelAccount>().HasData(
+            new PanelAccount
+            {
+                Id = Guid.Parse("11111111-1111-1111-1111-111111111111"),
+                Login = "admin",
+                PasswordHash = "gwbklxLIu1mjYNfVsjYjpyAg3klYWmgQjqY2dR2ma1aKsBxNAowel4qrpt+DpE8+",
+                PanelType = PanelType.Admin,
+                IsActive = true,
+                CreatedAt = new DateTimeOffset(
+                    new DateTime(2026, 1, 1),
+                    TimeSpan.Zero)
+            },
+
+            new PanelAccount
+            {
+                Id = Guid.Parse("22222222-2222-2222-2222-222222222222"),
+                Login = "waiter",
+                PasswordHash = "J2+nogLVA4WpidMG1gpDFO3MeCa/B2z0zwz77y8QW7fX26nUCJmbQzzgeFAJ+F0Q",
+                PanelType = PanelType.Waiter,
+                IsActive = true,
+                CreatedAt = new DateTimeOffset(
+                    new DateTime(2026, 1, 1),
+                    TimeSpan.Zero)
+            },
+
+            new PanelAccount
+            {
+                Id = Guid.Parse("33333333-3333-3333-3333-333333333333"),
+                Login = "cook",
+                PasswordHash = "58d3nczSLDy1tNnuUKEZKzBp1PMUuXrUv9WoHGtWE4f3mnaHmSmxBWlApqGfKC8k",
+                PanelType = PanelType.Cook,
+                IsActive = true,
+                CreatedAt = new DateTimeOffset(
+                    new DateTime(2026, 1, 1),
+                    TimeSpan.Zero)
+            },
+
+            new PanelAccount
+            {
+                Id = Guid.Parse("44444444-4444-4444-4444-444444444444"),
+                Login = "bartender",
+                PasswordHash = "c+MmA7AFqIXx2PLmAYIbyYuq5TkRjKh3z3FNXQEcM/QfpXYm6lGuOF4UHHKdJTjO",
+                PanelType = PanelType.Bartender,
+                IsActive = true,
+                CreatedAt = new DateTimeOffset(
+                    new DateTime(2026, 1, 1),
+                    TimeSpan.Zero)
+            }
+        );
     }
 }

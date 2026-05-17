@@ -120,6 +120,44 @@ namespace RestaurantServiceAPI.Infrastructure.Migrations
                         .IsUnique();
 
                     b.ToTable("PanelAccounts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("11111111-1111-1111-1111-111111111111"),
+                            CreatedAt = new DateTimeOffset(new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            IsActive = true,
+                            Login = "admin",
+                            PanelType = "Admin",
+                            PasswordHash = "gwbklxLIu1mjYNfVsjYjpyAg3klYWmgQjqY2dR2ma1aKsBxNAowel4qrpt+DpE8+"
+                        },
+                        new
+                        {
+                            Id = new Guid("22222222-2222-2222-2222-222222222222"),
+                            CreatedAt = new DateTimeOffset(new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            IsActive = true,
+                            Login = "waiter",
+                            PanelType = "Waiter",
+                            PasswordHash = "J2+nogLVA4WpidMG1gpDFO3MeCa/B2z0zwz77y8QW7fX26nUCJmbQzzgeFAJ+F0Q"
+                        },
+                        new
+                        {
+                            Id = new Guid("33333333-3333-3333-3333-333333333333"),
+                            CreatedAt = new DateTimeOffset(new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            IsActive = true,
+                            Login = "cook",
+                            PanelType = "Cook",
+                            PasswordHash = "58d3nczSLDy1tNnuUKEZKzBp1PMUuXrUv9WoHGtWE4f3mnaHmSmxBWlApqGfKC8k"
+                        },
+                        new
+                        {
+                            Id = new Guid("44444444-4444-4444-4444-444444444444"),
+                            CreatedAt = new DateTimeOffset(new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            IsActive = true,
+                            Login = "bartender",
+                            PanelType = "Bartender",
+                            PasswordHash = "c+MmA7AFqIXx2PLmAYIbyYuq5TkRjKh3z3FNXQEcM/QfpXYm6lGuOF4UHHKdJTjO"
+                        });
                 });
 
             modelBuilder.Entity("RestaurantServiceAPI.Domain.Entities.Product", b =>

@@ -16,7 +16,7 @@ public class PanelAccount
     public bool IsActive { get; set; }
     public DateTimeOffset CreatedAt { get; set; }
 
-    private PanelAccount() { }
+    public PanelAccount() { }
 
     public PanelAccount(string login, string passwordHash, PanelType panelType)
     {

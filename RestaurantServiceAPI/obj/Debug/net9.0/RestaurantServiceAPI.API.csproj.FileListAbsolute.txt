@@ -187,7 +187,6 @@ C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Deb
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\appsettings.json
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\RestaurantServiceAPI.API.staticwebassets.endpoints.json
@@ -379,3 +378,5 @@ C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\obj\Debug\net9.0\ref\RestaurantServiceAPI.API.dll
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.Core.dll
 C:\Users\Quram\Desktop\programing\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.S3.dll
+C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.Core.dll
+C:\Users\Quram\Desktop\program\RestaurantServiceAPI\RestaurantServiceAPI\bin\Debug\net9.0\AWSSDK.S3.dll
