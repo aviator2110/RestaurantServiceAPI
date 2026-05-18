@@ -12,7 +12,7 @@ using RestaurantServiceAPI.Infrastructure.Data;
 namespace RestaurantServiceAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(RestaurantServiceDbContext))]
-    [Migration("20260517191255_SeedPanelAccounts")]
+    [Migration("20260518070657_SeedPanelAccounts")]
     partial class SeedPanelAccounts
     {
         /// <inheritdoc />
